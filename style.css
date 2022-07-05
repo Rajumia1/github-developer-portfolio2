@@ -1,8 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
     font-family: 'Gentium Book Plus', serif;
+    font-size: 50px;
 
 }
 
 .spa {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 65%;
+}
+
+.anchor-link {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 5%;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+}
+
+.top-banner {
+
+    background-image: url(./image/top-banner.png);
+    background-repeat: no-repeat
 }
